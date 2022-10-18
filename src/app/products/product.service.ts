@@ -11,7 +11,6 @@ import { Product } from './product';
 })
 export class ProductService {
   private productsUrl = 'api/products';
-  snapshot: any;
 
   constructor(private http: HttpClient) { }
 
